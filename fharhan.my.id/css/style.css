@@ -525,6 +525,54 @@ section.my-journey .my-journey-text .my-journey-icon {
 
 section.my-journey .my-journey-text .my-journey-item {
    display: flex;
+   
+}
+
+
+section.my-portofolio {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+section.my-portofolio article {
+   display: block;
+}
+
+section.my-portofolio h2 {
+   font-size: 2rem;
+   font-weight: 600;
+   color: var(--color-tertiary);
+   text-align: center;
+}
+
+
+section.my-portofolio .portofolio-item {
+   display: flex;
+   justify-content: center;
+}
+
+section.my-portofolio .portofolio-item .portofolio-content {
+   margin-left: 1rem;
+}
+
+
+section.my-portofolio .portofolio-item .portofolio-item-icon {
+   width: 2rem;
+   height: 2rem;
+   border-radius: 0.4rem;
+   background: var(--color-primary);
+   margin-right: 0.5rem;
+}
+
+section.my-portofolio .portofolio-item .portofolio-content .portofolio-item-image {
+   margin-top: 1rem;
+}
+
+section.my-portofolio .portofolio-item .portofolio-content .portofolio-item-image img {
+   width: 10rem;
+   height: 10rem;
 }
 
 
