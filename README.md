@@ -2,7 +2,7 @@
 ## Mobile Version
 ### Hi! I’m Fharhan
 ```txt
-I am a software engineer with more than 6 years of 
+I am a **software engineer** with more than 6 years of 
 experience. I love to write codes and explore new things. 
 I really enjoy making web application, particularly in 
 the frontend. It's like being the architect and artist of the 
