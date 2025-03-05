@@ -49,3 +49,6 @@ All things mobile, Flutter, and Dart.
 
 ### Link Figma
 https://www.figma.com/design/G0SBmyBpst0PnFqckcGinD/Persona-Website(fharhanamrin.com)?node-id=0-1&t=WwrPr9X1dhlxdL6T-1
+
+### Link Website
+https://fharhan.my.id/
