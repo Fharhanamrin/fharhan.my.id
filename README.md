@@ -1,57 +1,46 @@
-# Website Profile
+# Fharhan Amrin's Website
 
-### Link Figma
-https://www.figma.com/design/G0SBmyBpst0PnFqckcGinD/Persona-Website(fharhanamrin.com)?node-id=0-1&t=WwrPr9X1dhlxdL6T-1
+Hi, I'm Fharhan. This is my personal website, where I share my projects, my journey, and my information.
 
-### Link Website
-https://fharhan.my.id/
+I am a **software engineer** with more than 6 years of experience. I love to **write codes** and **explore new things**. I really enjoy making web application, particularly in the frontend. It's like being the architect and artist of the online world.
 
-## Mobile Version
-### Hi! I’m Fharhan
+## Links
 
-I am a **software engineer** with more than 6 years of 
-experience. I love to **write codes** and **explore new things**. 
-I really enjoy making web application, particularly in 
-the frontend. It's like being the architect and artist of the 
-online world.
+### Desktop
 
+![Home Page](images/website.png)
 
-#### My Tech Stack
-* HTML 
-* CSS
-* JAVASCRIPT
-* PHP
-* GOLANG
-* JQUERY
-* FLUTTER
-* REACT NATIVE
+- Website: https://fharhan.com
+- Figma: https://www.figma.com/design/G0SBmyBpst0PnFqckcGinD/Persona-Website(fharhanamrin.com)?node-id=0-1&t=WwrPr9X1dhlxdL6T-1
 
+## My Tech Stack
 
-![Image Name](images/myinformation.png)
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Go (Golang)
+- jQuery
+- Flutter
+- React Native
 
-![Image Name](images/myjourney.png)
+## My Journey
 
-#### My Journey
-* Frontend Web 
-```txt
-All things interface and interaction.
-Including UI, UX, Figma, HTML, CSS, 
-JavaScript, TypeScript, and React.
-```
+Frontend Web: All things interface and interaction. Including UI, UX, Figma, HTML, CSS, JavaScript, TypeScript, and React.
 
-* Backend Web 
-```txt
-All things API and database, Rest Full API, 
+Backend Web: All things API and database, Rest Full API,
 Golang, and MySQL.
-```
 
-* MOBILE DEV
-```txt
-All things mobile, Flutter, and Dart.
-```
+Mobile Dev: All things mobile, Flutter, and Dart.
 
-## Desktop Version
+## Screenshots
 
-![Image Name](images/website.png)
+### Desktop
 
+![Home Page](images/website.png)
 
+### Mobile
+
+![My Information](images/myinformation.png)
+
+![My Journey](images/myjourney.png)
