@@ -1,4 +1,4 @@
-# Website Profile
+# Fharhan Amrin's Website
 
 ### Link Figma
 
@@ -29,9 +29,16 @@ online world.
 - FLUTTER
 - REACT NATIVE
 
-![Image Name](images/myinformation.png)
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Go (Golang)
+- jQuery
+- Flutter
+- React Native
 
-![Image Name](images/myjourney.png)
+## My Journey
 
 #### My Journey
 
@@ -48,7 +55,6 @@ JavaScript, TypeScript, and React.
 ```txt
 All things API and database, Rest Full API,
 Golang, and MySQL.
-```
 
 - MOBILE DEV
 
@@ -56,6 +62,6 @@ Golang, and MySQL.
 All things mobile, Flutter, and Dart.
 ```
 
-## Desktop Version
+## Screenshots
 
 ![Image Name](images/website.png)
