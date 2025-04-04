@@ -19,6 +19,15 @@
   display: none;
 }
 
+.menu a {
+  text-decoration: none;
+  color: var(--color-tertiary);
+}
+
+.menu a:hover {
+  color: var(--color-primary);
+}
+
 /* desktop condition */
 @media (min-width: 768px) {
   .menu-mobile {
