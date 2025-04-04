@@ -1,9 +1,21 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.2",
-    "tailwindcss": "^4.1.2"
-  },
+  "name": "fharhanamrin.my.id",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css"
-  }
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.x.x"
+  },
+  "version": "2.0.0",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "src"
+      }
+    }
+  ]
 }
