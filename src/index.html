@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <div class="w-10 h-10 bg-green-600 rounded-md"></div>
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Fharhan Amrin</span
+          >
+        </a>
+        <button
+          onclick="toggleMenu()"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            id="menu-icon"
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+          <svg
+            id="close-icon"
+            class="w-5 h-5 hidden"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-green-600 rounded-sm md:bg-transparent md:text-green-700 md:p-0 dark:text-white md:dark:text-green-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <article class="max-w-screen-xl mx-auto flex p-6">
+      <img src="./images/profile.png" alt="profile" class="w-1/4" />
+      <div class="p-6">
+        <h1 class="text-6xl font-bold">
+          Hi! I’m <span class="text-green-600">Fharhan</span>
+        </h1>
+        <p class="text-gray-500 pt-4 lg:pr-50">
+          I am a software engineer with more than 6 years of experience. I love
+          to write codes and explore new things. I really enjoy making web
+          application, particularly in the frontend. It's like being the
+          architect and artist of the online world.
+        </p>
+      </div>
+    </article>
+
+    <article class="max-w-screen-xl mx-auto p-6">
+      <h4 class="text-center text-2xl font-bold pb-10">
+        My <span class="text-green-600">journey</span>
+      </h4>
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Frontend Web Developer</h6>
+          <p class="text-gray-400">
+            All things interface and interaction. Including UI, UX, Figma, HTML,
+            CSS, JavaScript, TypeScript, and React.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Backend Web</h6>
+          <p class="text-gray-400">
+            All things API and database, Rest Full API, and Database.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Mobile Developer</h6>
+          <p class="text-gray-400">
+            All things mobile, including Flutter, Dart, and React Native.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">UI/UX</h6>
+          <p class="text-gray-400">
+            All things interface and interaction. Including UI, UX, Figma, HTML,
+            CSS, JavaScript, TypeScript, and React.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div
+      class="w-32 h-32 bg-green-500 ml-auto rounded-tl-[6rem] rounded-bl-[2rem] my-10"
+    ></div>
+
+    <article class="max-w-screen-xl bg-green-200 mx-auto p-6 rounded-lg">
+      <h4 class="text-center text-2xl font-bold pb-10">
+        My tech <span class="text-green-600">stack</span>
+      </h4>
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">HTML</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">PHP</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">REACT NATIVE</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">CSS</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">Golang</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">JQUERY</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">JavaScript</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">Flutter</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3">
+          <div class="m-2 flex lg:justify-center items-center">
+            <div class="w-16 h-16 bg-green-500 rounded-2xl mx-2"></div>
+            <span class="text-black font-bold">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div
+      class="w-32 h-32 bg-green-500 rounded-tr-[6rem] rounded-br-[2rem] my-10"
+    ></div>
+
+    <article class="max-w-screen-xl mx-auto p-6">
+      <h4 class="text-center text-2xl font-bold pb-10">
+        My <span class="text-green-600">projects</span>
+      </h4>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto1.png"
+            alt="Project 1"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">Tiketing System</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Dari pameran, tiket wisata, hingga tiket pesawat, semua bisa di
+              beli dengan cepat dan mudah.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto2.png"
+            alt="Project 2"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">E-commerce</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Foodhall adalah supermarket premium yang menyediakan beragam
+              produk makanan berkualitas tinggi, mulai dari bahan segar, produk
+              impor eksklusif, hingga makanan siap saji. Dengan standar kualitas
+              terbaik dan pelayanan profesional, Foodhall menjadi destinasi
+              belanja premium untuk pecinta kuliner di Indonesia.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto1.png"
+            alt="Project 3"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">Waorderaja</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Waorderaja adalah platform pemesanan makanan dengan menggunakan
+              WhatsApp.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto1.png"
+            alt="Project 1"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">Tiketing System</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Dari pameran, tiket wisata, hingga tiket pesawat, semua bisa di
+              beli dengan cepat dan mudah.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto2.png"
+            alt="Project 2"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">E-commerce</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Foodhall adalah supermarket premium yang menyediakan beragam
+              produk makanan berkualitas tinggi, mulai dari bahan segar, produk
+              impor eksklusif, hingga makanan siap saji. Dengan standar kualitas
+              terbaik dan pelayanan profesional, Foodhall menjadi destinasi
+              belanja premium untuk pecinta kuliner di Indonesia.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./images/projects/porto1.png"
+            alt="Project 3"
+            class="w-full h-auto object-contain"
+          />
+          <div class="p-4">
+            <h5 class="text-xl font-semibold mb-2">Waorderaja</h5>
+            <p class="line-clamp-2 text-gray-600 mb-4">
+              Waorderaja adalah platform pemesanan makanan dengan menggunakan
+              WhatsApp.
+            </p>
+            <button
+              class="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div
+      class="w-32 h-32 bg-green-500 ml-auto rounded-tl-[6rem] rounded-bl-[2rem] my-10"
+    ></div>
+
+    <footer class="bg-green-600 text-white py-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center">
+          <div class="mb-4">
+            <p class="text-center">
+              &copy; 2024 - All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const navbar = document.getElementById("navbar-default");
+        const menuIcon = document.getElementById("menu-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        navbar.classList.toggle("hidden");
+        menuIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
+      }
+    </script>
+  </body>
+</html>
