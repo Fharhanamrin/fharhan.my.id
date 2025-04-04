@@ -1,32 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <div class="w-10 h-10 bg-green-600 rounded-md"></div>
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Fharhan Amrin</span
+          >
+        </a>
+        <button
+          onclick="toggleMenu()"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            id="menu-icon"
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+          <svg
+            id="close-icon"
+            class="w-5 h-5 hidden"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+           <li>
+              <a
+                href="../../src/index.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="../../src/about/index.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                aria-current="page"
+                >About</a
+              >
+            </li>
+           
+            
+            <li>
+              <a
+                href="../../src/contact/index.html"
+                class="block py-2 px-3 text-white bg-green-600 rounded-sm md:bg-transparent md:text-green-700 md:p-0 dark:text-white md:dark:text-green-500"
+                aria-current="page"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="../../src/portfolio/index.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <main>
-      <h1>Contact</h1>
-      <p>Contact me at:</p>
-      <ul>
-        <li><a href="mailto:myname@example.com">myname@example.com</a></li>
-        <li><a href="tel:+1234567890">+1 234 567 890</a></li>
-      </ul>
-    </main>
+    
 
-    <footer>
-      <p>
-        <span>Copyright &copy; 2022</span>
-        <a href="https://example.com">Creator</a>.
-        <span>All rights reserved.</span>
-      </p>
+    <article class="max-w-screen-xl mx-auto p-6">
+      <h4 class="text-center text-2xl font-bold pb-10">
+        My <span class="text-green-600">journey</span>
+      </h4>
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Frontend Web Developer</h6>
+          <p class="text-gray-400">
+            All things interface and interaction. Including UI, UX, Figma, HTML,
+            CSS, JavaScript, TypeScript, and React.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Backend Web</h6>
+          <p class="text-gray-400">
+            All things API and database, Rest Full API, and Database.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">Mobile Developer</h6>
+          <p class="text-gray-400">
+            All things mobile, including Flutter, Dart, and React Native.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/2 p-4">
+          <h6 class="text-lg font-bold">UI/UX</h6>
+          <p class="text-gray-400">
+            All things interface and interaction. Including UI, UX, Figma, HTML,
+            CSS, JavaScript, TypeScript, and React.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <div
+      class="w-32 h-32 bg-green-500 ml-auto rounded-tl-[6rem] rounded-bl-[2rem] my-10"
+    ></div>
+
+
+    <footer class="bg-green-600 text-white py-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center">
+          <div class="mb-4">
+            <p class="text-center">
+              &copy; 2024 - All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <script>
+      function toggleMenu() {
+        const navbar = document.getElementById("navbar-default");
+        const menuIcon = document.getElementById("menu-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        navbar.classList.toggle("hidden");
+        menuIcon.classList.toggle("hidden");
+        closeIcon.classList.toggle("hidden");
+      }
+    </script>
   </body>
 </html>
