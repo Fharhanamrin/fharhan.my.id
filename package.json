@@ -2,11 +2,11 @@
   "name": "fharhanamrin.my.id",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css -watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css"
   },
   "dependencies": {
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^4.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
