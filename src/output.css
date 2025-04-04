@@ -640,11 +640,6 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
-  .lg\:justify-center {
-    @media (width >= 64rem) {
-      justify-content: center;
-    }
-  }
   .lg\:pr-50 {
     @media (width >= 64rem) {
       padding-right: calc(var(--spacing) * 50);
